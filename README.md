@@ -17,5 +17,4 @@
 * [solidity cheatsheet and best practices](https://github.com/manojpramesh/solidity-cheatsheet)
 * [solidity vscode plugin](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
 * [another solidity vscode plugin](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
-* [founder](https://getfoundry.sh/)
-* [founder book](https://book.getfoundry.sh/forge/differential-ffi-testing)
+* [foundry book](https://book.getfoundry.sh/forge/differential-ffi-testing)
