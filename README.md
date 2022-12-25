@@ -2,13 +2,37 @@
 
 <br>
 
-### in this repo
+#### start with [solidity tl; dr](solidity_tldr.md)
 
 <br>
 
 ---
 
-### solidity resources
+### in this repo
+
+
+#### learning
+
+* [set your workspace](workspace)
+* [tokens standard](token_standards)
+* [boilerplates](boilerplates)
+* [saving gas](saving_gas)
+* [abi encoding](abi_encoding)
+* [events](events)
+* [tests](tests)
+
+
+<br>
+
+#### boilerplates and code
+
+
+
+<br>
+
+---
+
+### resources
 
 * [solidity docs](https://docs.soliditylang.org/en/v0.8.12/)
 * [openzeppelin docs](https://docs.openzeppelin.com/)
