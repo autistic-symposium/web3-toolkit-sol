@@ -18,7 +18,7 @@
 * [boilerplates](boilerplates)
 * [saving gas](saving_gas)
 * [abi encoding](abi_encoding)
-* [topics]()
+* [events](events)
 * [tests](tests)
 
 

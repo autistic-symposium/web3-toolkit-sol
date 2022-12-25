@@ -1,4 +1,4 @@
-## solidity topics
+## events and topics
 
 ### tl; dr
 
