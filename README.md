@@ -17,7 +17,7 @@
 * [tokens standard](token_standards)
 * [boilerplates](boilerplates)
 * [saving gas](saving_gas)
-* [abi enconding](abi_enconding)
+* [abi encoding](abi_encoding)
 * [topics]()
 * [tests](tests)
 
