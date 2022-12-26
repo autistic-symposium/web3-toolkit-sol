@@ -13,6 +13,8 @@
 
 #### learning
 
+<br>
+
 * [set your workspace](workspace)
 * [tokens standard](token_standards)
 * [boilerplates](boilerplates)
@@ -33,6 +35,8 @@
 ---
 
 ### resources
+
+<br>
 
 * [solidity docs](https://docs.soliditylang.org/en/v0.8.12/)
 * [openzeppelin docs](https://docs.openzeppelin.com/)
