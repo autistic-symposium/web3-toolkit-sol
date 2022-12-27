@@ -93,10 +93,10 @@ uint256 world; //good, cheap
 ### resources 
 
 
-
+* [resources for gas optimization](https://github.com/kadenzipfel/gas-optimizations)
 * [truffle contract size](https://github.com/IoBuilders/truffle-contract-size)
 * [solidity gas optimizations](https://mirror.xyz/haruxe.eth/DW5verFv8KsYOBC0SxqWORYry17kPdeS94JqOVkgxAA)
-* [hardhat](https://medium.com/@thelasthash/%EF%B8%8F-gas-optimization-with-hardhat-1e553eaea311)
-* [foundry](https://book.getfoundry.sh/forge/gas-reports)
+* [hardhat on gas optimization](https://medium.com/@thelasthash/%EF%B8%8F-gas-optimization-with-hardhat-1e553eaea311)
+* [foundry on gas](https://book.getfoundry.sh/forge/gas-reports)
 
 
