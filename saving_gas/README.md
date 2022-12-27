@@ -98,5 +98,6 @@ uint256 world; //good, cheap
 * [solidity gas optimizations](https://mirror.xyz/haruxe.eth/DW5verFv8KsYOBC0SxqWORYry17kPdeS94JqOVkgxAA)
 * [hardhat on gas optimization](https://medium.com/@thelasthash/%EF%B8%8F-gas-optimization-with-hardhat-1e553eaea311)
 * [foundry on gas](https://book.getfoundry.sh/forge/gas-reports)
+* [awesome solidity gas optimization](https://github.com/iskdrews/awesome-solidity-gas-optimization)
 
 
