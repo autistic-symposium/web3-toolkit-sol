@@ -9,6 +9,13 @@
 - avoid calls to other contracts.
 - ++i uses 5 gas less than i++.
 - if you don’t need a variable anymore, you should delete it using the delete keyword provided by solidity or by setting it to its default value.
+
+<br>
+
+<img width="532" alt="Screen Shot 2023-01-24 at 4 28 45 PM" src="https://user-images.githubusercontent.com/1130416/214452718-b051caed-49e4-45fb-b955-976d20e97cbd.png">
+
+
+
 <br>
 
 #### pack variables
