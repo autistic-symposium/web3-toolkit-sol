@@ -48,5 +48,6 @@
 * [another solidity vscode plugin](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
 * [foundry book](https://book.getfoundry.sh/forge/differential-ffi-testing)
 * [solmate](https://github.com/transmissions11/solmate/)
+* [dapp.tools](https://dapp.tools/)
 
 
