@@ -46,6 +46,7 @@
 * [solidity cheatsheet and best practices](https://github.com/manojpramesh/solidity-cheatsheet)
 * [solidity vscode plugin](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
 * [another solidity vscode plugin](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
+* [learn solidity with examples, by jsagalli](https://github.com/James-Sangalli/learn-solidity-with-examples)
 * [foundry book](https://book.getfoundry.sh/forge/differential-ffi-testing)
 * [solmate](https://github.com/transmissions11/solmate/)
 * [dapp.tools](https://dapp.tools/)
