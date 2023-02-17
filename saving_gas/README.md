@@ -1,5 +1,6 @@
 ## tricks to save gas
 
+<br>
 
 ### tl; dr
 
@@ -9,6 +10,10 @@
 - avoid calls to other contracts.
 - ++i uses 5 gas less than i++.
 - if you don’t need a variable anymore, you should delete it using the delete keyword provided by solidity or by setting it to its default value.
+
+<br>
+
+----
 
 <br>
 
@@ -99,6 +104,7 @@ uint256 world; //good, cheap
 
 ### resources 
 
+<br>
 
 * [resources for gas optimization](https://github.com/kadenzipfel/gas-optimizations)
 * [truffle contract size](https://github.com/IoBuilders/truffle-contract-size)
