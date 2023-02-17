@@ -1,12 +1,8 @@
 ## boilerplates 
 
-### in this dir
+<br>
 
 * [learning](learning)
 * [solidity 101](solidity_101)
 
-<br>
 
----
-
-### resources
