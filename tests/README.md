@@ -1,6 +1,6 @@
 ## tests in solidity
 
-### tl; dr
+<br>
 
 #### assert vs. require
 
@@ -8,7 +8,7 @@
 * Require() should be used to ensure valid conditions are met that cannot be detected until execution time.
 * You may optionally provide a message for require, but not for assert.
 
-
+<br>
 
 #### unit testing
 
@@ -27,6 +27,7 @@
 
 ### resources
 
+<br>
 
 * [how to mock solidity contracts](https://ethereum.org/en/developers/tutorials/how-to-mock-solidity-contracts-for-testing/)
 * [truffle smart contract test framework](https://ethereum.org/en/developers/tutorials/how-to-mock-solidity-contracts-for-testing/)
