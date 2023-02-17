@@ -7,7 +7,7 @@
 
 <br>
 
-* until [account abstract](https://github.com/go-outside-labs/mev-toolkit/tree/main/MEV_by_chains/MEV_on_Ethereum/account_abstraction) becomes a thing, there are two types of accounts, which are identified by an address of **160-bit length** (rightmost 160 bits of the **Keccak hash** of the RLP encoding of the structure with the sender and the nonce), and contain a **balance**, a **nonce**, a **bytecode**, and **stored data** (storage). while **external accounts have a private key** and their code and storage are empty, **contract accounts store their bytecode** (and merkle root hash of the entire state tree).
+* until [account abstraction](https://github.com/go-outside-labs/mev-toolkit/tree/main/MEV_by_chains/MEV_on_Ethereum/account_abstraction) becomes a thing, there are two types of accounts, which are identified by an address of **160-bit length** (rightmost 160 bits of the **Keccak hash** of the RLP encoding of the structure with the sender and the nonce), and contain a **balance**, a **nonce**, a **bytecode**, and **stored data** (storage). while **external accounts have a private key** and their code and storage are empty, **contract accounts store their bytecode** (and merkle root hash of the entire state tree).
 
 <br>
 
