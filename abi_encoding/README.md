@@ -1,6 +1,11 @@
 ## ABI encoding
 
+<br>
+
 ### tl; dr
+
+
+<br>
 
 * the solidity built-in function `abi.encode` encodes solidity types into raw bytes, that can be interpreted directly by the EVM.
 
@@ -19,12 +24,16 @@ contract StringEncoding {
 <br>
 
 
-* *other ABI Encodings
+* other ABI Encodings
     * address payable -> address
     * contract -> address
     * enum -> uint8
     * struct -> tuple of elementry types
 
+<br>
+
 ---
 
 ### resources
+
+<br>
