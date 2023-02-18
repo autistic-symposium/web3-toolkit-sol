@@ -23,4 +23,5 @@
 
 <br>
 
-* [mev memoirs in the arena, by noxx](https://noxx.substack.com/p/mev-memoirs-into-the-arena-chapter?s=r)
+* [mev memoirs in the arena part 1, by noxx](https://noxx.substack.com/p/mev-memoirs-into-the-arena-chapter?s=r)
+* [mev memoirs in the arena part 2, by noxx](https://noxx.substack.com/p/mev-memoirs-into-the-arena-chapter-3e9)
