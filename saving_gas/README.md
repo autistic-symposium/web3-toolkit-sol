@@ -1,23 +1,51 @@
-## tricks to save gas
+## gas
 
 <br>
 
-### tl; dr
+### gas costs
 
-- gas is the cost for on-chain computation and storage.
-- examples: addition costs 3 gas, Keccak-256 costs 30 gas + 6 gas for each 256 bits of data being hashed, and sending a transaction costs 21,000 gas.
-- brute force hashes of function names to find those that start 0000, so this can save around 50 gas.
-- avoid calls to other contracts.
-- ++i uses 5 gas less than i++.
-- if you don’t need a variable anymore, you should delete it using the delete keyword provided by solidity or by setting it to its default value.
+<br>
+
+- gas is the cost for on-chain computation and storage. examples: 
+     - addition costs 3 gas, keccak-256 costs 30 gas + 6 gas for each 256 bits of data being hashed
+     - sending a transaction costs 21,000 gas (intrinsic gas)
+     - creating a contract cost 32000 gas
+- each **calldata** byte costs gas (gas per byte equal to 0, and 16 gas for the others), the larger the size of the transaction data, the higher the gas fees. 
+- each opcode has a [specific fixed cost to be paid upon execution](https://www.evm.codes/?fork=arrowGlacier)
 
 <br>
 
 ----
 
+### calculating gas for your code
+
 <br>
 
-<img width="532" alt="Screen Shot 2023-01-24 at 4 28 45 PM" src="https://user-images.githubusercontent.com/1130416/214452718-b051caed-49e4-45fb-b955-976d20e97cbd.png">
+* online: [remix](https://remix.ethereum.org/)
+
+
+<br>
+
+----
+
+
+### tricks to save gas
+
+<br>
+
+#### small ones
+
+<br>
+
+- brute force hashes of function names to find those that start 0000, so this can save around 50 gas.
+- if you don’t need a variable anymore, you should delete it using the delete keyword provided by solidity or by setting it to its default value.
+- avoid calls to other contracts.
+- ++i uses 5 gas less than i++.
+
+<br>
+
+
+<img width="450" alt="Screen Shot 2023-01-24 at 4 28 45 PM" src="https://user-images.githubusercontent.com/1130416/214452718-b051caed-49e4-45fb-b955-976d20e97cbd.png">
 
 
 
@@ -106,11 +134,11 @@ uint256 world; //good, cheap
 
 <br>
 
-* [resources for gas optimization](https://github.com/kadenzipfel/gas-optimizations)
 * [truffle contract size](https://github.com/IoBuilders/truffle-contract-size)
+* [foundry book on gas](https://book.getfoundry.sh/forge/gas-reports)
 * [solidity gas optimizations](https://mirror.xyz/haruxe.eth/DW5verFv8KsYOBC0SxqWORYry17kPdeS94JqOVkgxAA)
 * [hardhat on gas optimization](https://medium.com/@thelasthash/%EF%B8%8F-gas-optimization-with-hardhat-1e553eaea311)
-* [foundry on gas](https://book.getfoundry.sh/forge/gas-reports)
+* [resources for gas optimization](https://github.com/kadenzipfel/gas-optimizations)
 * [awesome solidity gas optimization](https://github.com/iskdrews/awesome-solidity-gas-optimization)
 
 
