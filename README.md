@@ -18,8 +18,9 @@
 * [saving gas](saving_gas)
 * [abi encoding](abi_encoding)
 * [storage](storage)
+* [foundry](foundry)
 * [events](events)
-* [tests](tests)
+
 
 
 
@@ -50,12 +51,6 @@
 * [dapp.tools](https://dapp.tools/)
 * [solidity cheatsheet and best practices](https://github.com/manojpramesh/solidity-cheatsheet)
 
-
-<br>
-
-##### testing
-
-* [foundry book](https://book.getfoundry.sh/forge/differential-ffi-testing)
 
 
 <br>
