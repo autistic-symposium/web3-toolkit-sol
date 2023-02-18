@@ -7,11 +7,16 @@
 
 <br>
 
-* until [account abstraction](https://github.com/go-outside-labs/mev-toolkit/tree/main/MEV_by_chains/MEV_on_Ethereum/account_abstraction) becomes a thing, there are two types of accounts, which are identified by an address of **160-bit length** (rightmost 160 bits of the **Keccak hash** of the RLP encoding of the structure with the sender and the nonce), and contain a **balance**, a **nonce**, a **bytecode**, and **stored data** (storage). while **external accounts have a private key** and their code and storage are empty, **contract accounts store their bytecode** (and merkle root hash of the entire state tree).
+* until [account abstraction](https://github.com/go-outside-labs/mev-toolkit/tree/main/MEV_by_chains/MEV_on_Ethereum/account_abstraction) becomes a thing, there are two types of accounts, which are identified by an address of **160-bit length** (rightmost 160 bits of the **Keccak hash** of the RLP encoding of the structure with the sender and the nonce), and contain a **balance** (in wei), a **nonce** (number of tx made by the account), a **bytecode** (hash), and **stored data** (keccak hash of the root note od the storage trie). while **external accounts have a private key** and their code and storage are empty, **contract accounts store their bytecode** (and merkle root hash of the entire state tree).
 
 <br>
 
-* the **creation of a contract** is a transaction where the **receiver address is empty** and its **data field contains compiled bytecode** (or calling `CREATE` opcode. the data sent is executed as bytecode, initializing the state variables in storage and determining the body of the contract being created.
+* the **creation of a contract** is a transaction where the **receiver address is empty** and its **data field contains compiled bytecode** (or calling `CREATE` opcode. the data sent is executed as bytecode, initializing the state variables in storage and determining the body of the contract being created. **contract memory** is a byte array, where data can be stored in 32 bytes (256 bit) or 1 byte (8 bit) chunks, reading in 32 bytes chunks (through `MSTORE`, `MLOAD`, `MSTORE8`).
+
+<br>
+
+<img width="516" src="https://user-images.githubusercontent.com/1130416/219829883-c94c0a80-1101-462e-99fa-afbf7feb2b57.png">
+
 
 <br>
 
