@@ -74,6 +74,7 @@
 * `ecrecover`: recovers the address used to sign a message from the signature.
 * `selfdestruct(__recipient_address__)`: deletes the current contract, sending any remaining ether in the account to the recipient address.
 * `this`: address of the currently executing contract account.
+* [list of precompiled contracts](https://www.evm.codes/precompiled?fork=arrowGlacier)
 
 <br>
 
