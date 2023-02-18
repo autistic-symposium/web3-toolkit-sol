@@ -17,7 +17,7 @@
 * [boilerplates](boilerplates)
 * [saving gas](saving_gas)
 * [abi encoding](abi_encoding)
-* [storage](storage)
+* [calldata](calldata)
 * [foundry](foundry)
 * [events](events)
 
