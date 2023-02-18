@@ -310,9 +310,14 @@ assembly {
 }
 ```
 
-* **memory**: volatile read-write byte-addressable space (store data during execution) initiallized as zero. the evm opcodes are `MLOAD` (loads a word into the stack), `MSTORE` (saves a word to memory), `MSTORE8` (saves a byte to memory).
+* **memory**: volatile read-write byte-addressable space (store data during execution) initiallized as zero. the evm opcodes are `MLOAD` (loads a word into the stack), `MSTORE` (saves a word to memory), `MSTORE8` (saves a byte to memory). gas costs since memory loads (MLOADs) are significantly cheaper in gas than SLOADs.
 
 * **storage**: persistant read-write word-addressable space for contracts, addressed by words. it's a key-value mapping of 2**256 slots of 32 bytes each. gas to save data into storage is one of the highest operations. the evm opcodes are: `SLOAD` (loads a word from storage to stack), `SSTORE` (saves a word to storage).
+	* bitpack loading: storing multiple variables in a single 32-byts slot by ordering the byte size
+	* fixed-length arrays: takes a predetermined amount of slots.
+	* dynamic-length arrays: new elements assign slots after deployment (handled by the evm with keccak256 hashing)
+	* mappings: dynamic type with key hashes
+
 
 
 <br>
