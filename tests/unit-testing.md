@@ -1,8 +1,13 @@
-## basic Unit testing
+## basic solidity unity test
 
 <br>
 
-Functions in a test file to make testing more structural:
+### functions
+
+
+<br>
+
+functions in a test file to make testing more structural:
 
 * `beforeEach()` - Runs before each test
 * `beforeAll()` - Runs before all tests
@@ -11,7 +16,7 @@ Functions in a test file to make testing more structural:
 
 <br>
 
-A generic unit testing file looks like:
+a generic unit testing file looks like:
 
 
 ```
@@ -58,6 +63,19 @@ contract testSuite {
 }
 ```
 
-Note that ine can input custom values for `msg.sender` & `msg.value` of transaction using NatSpec comments.
+note that ine can input custom values for `msg.sender` & `msg.value` of transaction using NatSpec comments.
 
 
+<br>
+
+---
+
+### resources
+
+<br>
+
+* [Solidity-Coverage](https://github.com/sc-forks/solidity-coverage)
+* [Remix tests](https://github.com/ethereum/remix-project/tree/master/libs/remix-tests)
+* [OpenZeppelin test helpers](https://github.com/OpenZeppelin/openzeppelin-test-helpers)
+* [foundry forge tests](https://github.com/foundry-rs/foundry/tree/master/forge)
+* [etheno](https://github.com/crytic/etheno)
