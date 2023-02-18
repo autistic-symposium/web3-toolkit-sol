@@ -11,6 +11,12 @@
 
 <br>
 
+<img width="516" src="https://user-images.githubusercontent.com/1130416/219830838-01ce01c8-e818-403e-8a7a-2dbcff68a7bc.png">
+
+
+
+<br>
+
 * the **creation of a contract** is a transaction where the **receiver address is empty** and its **data field contains compiled bytecode** (or calling `CREATE` opcode. the data sent is executed as bytecode, initializing the state variables in storage and determining the body of the contract being created. **contract memory** is a byte array, where data can be stored in 32 bytes (256 bit) or 1 byte (8 bit) chunks, reading in 32 bytes chunks (through `MSTORE`, `MLOAD`, `MSTORE8`).
 
 <br>
