@@ -16,6 +16,20 @@
 
 <br>
 
+----
+
+### decompilers
+
+<br>
+
+* [dedaub](https://library.dedaub.com/)
+* [ethervm.io](https://ethervm.io/decompile)
+* [panoramix](https://github.com/eveem-org/panoramix)
+* [froundry's cast with --debug](https://book.getfoundry.sh/cast/index.html)
+
+
+<br>
+
 
 ---
 
