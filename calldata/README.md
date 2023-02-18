@@ -20,3 +20,7 @@
 ---
 
 ### resources
+
+<br>
+
+* [mev memoirs in the arena, by noxx](https://noxx.substack.com/p/mev-memoirs-into-the-arena-chapter?s=r)
