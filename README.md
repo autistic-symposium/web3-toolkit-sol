@@ -59,3 +59,8 @@
 
 * [another solidity vscode plugin](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
 
+<br>
+
+##### advanced readings
+
+* [reusable properties for ethereum contracts, by trailofbits](https://blog.trailofbits.com/2023/02/27/reusable-properties-ethereum-contracts-echidna/)
